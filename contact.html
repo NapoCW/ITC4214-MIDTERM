@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="index.html">FashionTask</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="tasks.html">Tasks</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="fashion-trends.html">Fashion Trends</a></li>
+			<button id="dark-mode-toggle" class="btn btn-outline-secondary ml-3">Dark Mode</button>
+        </ul>
+    </div>
+</nav>
+
+<!-- Contact Form -->
+<div class="container mt-5">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" class="form-control" placeholder="Enter the subject" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- Google Maps -->
+<div class="container mt-5">
+    <h3>Our Location</h3>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.793863099788!2d23.83052597645764!3d38.00526837192822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a199709f059559%3A0xad1dacf4713268b2!2sDeree%20College!5e0!3m2!1sen!2sgr!4v1729087826279!5m2!1sen!2sgr" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="mt-5">
+    <p>&copy; 2024 FashionTask | Contact Us <a href="https://x.com" target="_blank" class="social-icon" style="margin-left: 10px;">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank" class="social-icon" style="margin-left: 10px;">
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="social-icon" style="margin-left: 10px;">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+		</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
