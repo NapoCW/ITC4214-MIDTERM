@@ -118,6 +118,23 @@ body.dark-mode {
     margin-bottom: 30px;
    }
 
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+}
+
+.social-icon {
+    font-size: 36px; /* Adjust size as needed */
+    color: #000; /* Default color */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+
 /* Dark Mode for Google Maps */
 .dark-mode iframe {
     filter: invert(90%);
